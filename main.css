@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 50px;
+  background-color: #F2F2F2;
+}
+.vogue-icon {
+  width: 134px;
+  height: 40px;
+  flex-shrink: 0;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+/* Định dạng phần nội dung chính */
+
+.body .content {
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.20));
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* Định dạng phần chân trang */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.menu-bar {
+  background-color: #333;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* .menu-items{
+    justify-content: space-around;
+} */
+
+.menu-items {
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+}
+.menu-item {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 35px;
+  border-left: 1px solid #fff;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.menu-item-img {
+  height: 20px;
+  width: 20px;
+}
+.heading1{
+    color: var(--blvck, #222);
+
+/* heading 1 */
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 114.286% */
+}
+.span{
+    color: #B5B5B5;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+}
+.p1{
+    color: #000;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.heading2{
+    color: var(--blvck, #222);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+
+}
+.p2{
+    color: var(--blvck, #222);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.heading3{
+    color: var(--blvck, #222);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+}
+.content1{
+    padding: 50px;
+}
+.content2{
+    background-color: #eeeeee;
+    padding: 50px;
+
+}
+.ul{
+    color: var(--blvck, #222);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+/* li:nth-last-child{
+    kl
+} */
